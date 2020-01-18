@@ -1,6 +1,7 @@
 import helpers from "./helper/sani-string-helpers";
+import { ISaniString } from "./interfaces";
 
-class SaniString {
+class SaniString implements ISaniString {
   private val: string;
 
   constructor(val: string) {

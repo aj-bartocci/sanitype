@@ -1,6 +1,7 @@
 import helpers from "./helper/sani-string-helpers";
+import { IOptionalSaniString } from "./interfaces";
 
-class OptionalSaniString {
+class OptionalSaniString implements IOptionalSaniString {
   private val?: string | undefined;
 
   constructor(val?: string | undefined) {

@@ -1,4 +1,6 @@
-class SaniNumber {
+import { ISaniNumber } from "./interfaces";
+
+class SaniNumber implements ISaniNumber {
   private val: number;
 
   constructor(val: number) {

@@ -1,4 +1,6 @@
-class SaniBool {
+import { ISaniBool } from "./interfaces";
+
+class SaniBool implements ISaniBool {
   private val: boolean;
 
   constructor(val: boolean) {

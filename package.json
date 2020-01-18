@@ -2,7 +2,9 @@
   "name": "sanitype",
   "version": "1.0.0",
   "description": "A tool for typing and sanitizing objects",
-  "main": "lib/index.js",
+  "main": "./dist/index.js",
+  "types": "./lib/main.d.ts",
+  "repository": "https://github.com/aj-bartocci/sanitype.git",
   "directories": {
     "test": "test"
   },
